@@ -22,7 +22,7 @@ class TerranRecyclerView:AppCompatActivity() {
     private lateinit var adapter: TerranAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(binding.root)
+        setContentView(binding.root)//
         unitList = ArrayList()
         adapter = TerranAdapter(this,unitList)
         binding.recyclerTerran.layoutManager = LinearLayoutManager(this)
