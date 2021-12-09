@@ -1,41 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pngegg__4_">
 
     <Button
         android:id="@+id/terranButton"
-        android:layout_width="125dp"
-        android:layout_height="200dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="28dp"
+        android:layout_width="130dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
         android:background="@drawable/pngegg__1_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/protosButton" />
 
     <Button
         android:id="@+id/protosButton"
-        android:layout_width="125dp"
-        android:layout_height="200dp"
+        android:layout_width="130dp"
+        android:layout_height="108dp"
+        android:layout_marginEnd="12dp"
         android:background="@drawable/pngegg__3_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.948" />
+        app:layout_constraintVertical_bias="0.993" />
 
     <Button
         android:id="@+id/zergButton"
-        android:layout_width="125dp"
-        android:layout_height="200dp"
-        android:layout_marginStart="4dp"
+        android:layout_width="130dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="8dp"
         android:background="@drawable/pngegg__2_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.946" />
+        app:layout_constraintVertical_bias="0.993" />
 
     <TextView
         android:id="@+id/textView"
