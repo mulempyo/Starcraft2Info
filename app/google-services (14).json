@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141481425943",
+    "firebase_url": "https://neww-8b3e5-default-rtdb.firebaseio.com",
+    "project_id": "neww-8b3e5",
+    "storage_bucket": "neww-8b3e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141481425943:android:2e39ba75a5b8410f41b052",
+        "android_client_info": {
+          "package_name": "org.techtown.starcraft2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141481425943-tbtn49460lr434khqokrq0o5s9p6o7e7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.techtown.starcraft2",
+            "certificate_hash": "5c5edf594dafff16c0a51d2cf37b7d8030849166"
+          }
+        },
+        {
+          "client_id": "141481425943-bebtpogpgv4afb61msgpgrgmlo3af5ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDC5_Yr2nPZP89FgD9dLN0tFEpeAhWNxkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141481425943-bebtpogpgv4afb61msgpgrgmlo3af5ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
