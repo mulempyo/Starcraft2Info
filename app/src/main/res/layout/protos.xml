@@ -20,6 +20,13 @@
                 android:layout_gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img"
+                    android:scaleType="fitXY"
+                    android:layout_marginBottom="15dp"
+                    android:imageUrl="@{isData.img}"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"/>
                 <View
                     android:background="@android:color/darker_gray"
                     android:layout_width="match_parent"

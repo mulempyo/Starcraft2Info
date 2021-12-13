@@ -5,7 +5,7 @@ import android.graphics.drawable.Drawable
 class Starcraft2Unit {
     var unitName:String?=null
     var info:String?= null
-    var img:String? = null
+    var img:String?=null
     constructor(){}
     constructor(
         unitName:String,

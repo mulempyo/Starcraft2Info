@@ -20,7 +20,7 @@ class Terran:AppCompatActivity() {
         setContentView(binding.root)
         val unitName = intent.getStringExtra("Name")
         val unitInfo = intent.getStringExtra("info")
-        val img = intent?.getStringExtra("img")
+        val img = intent.getStringExtra("img")
         binding.name.text = unitName
         binding.info.text = unitInfo
         binding.img.loadImage(img, getProgressDrawable(this))
