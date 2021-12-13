@@ -32,11 +32,11 @@ class TerranRecyclerView:AppCompatActivity() {
         database = FirebaseDatabase.getInstance().getReference("Terran")
         database.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {
-                if(snapshot.exists()){
+                //if(snapshot.exists()){
                     for (starcraft2Snapshot in snapshot.children){
                         val starcraft2Info = starcraft2Snapshot.getValue(Starcraft2Unit::class.java)
                         unitList.add(starcraft2Info!!)
-                    }
+                   // }
                     adapter.notifyDataSetChanged()
                 }
             }
